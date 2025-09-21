@@ -1,0 +1,162 @@
+body{
+    background-color: #62A5C6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header{
+    background-image: url("../img/Fondo.jpg");;
+    color: rgb(69, 35, 100);
+    text-align: center;
+    padding: 50px;
+    background-repeat: no-repeat;    
+    background-size: cover;         
+    background-position: center;    
+    height: 500px; 
+}
+
+header h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+nav{
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+nav ul li{
+    display: inline;
+    margin-right: 70px;
+}
+
+    nav ul li a{
+        text-decoration: none;  
+        margin-right: 70px;
+        font-size: 20px; 
+        color: white;            
+        font-weight: bold; 
+    }
+    nav ul li a:hover{
+        
+        color: rgb(219, 198, 165);            
+    }
+
+    section{
+       background-color: #62A5C6;
+       margin: 15px;
+       padding: 15px; 
+    }
+    #info{
+   background-color: rgba(60, 70, 149, 0.5);
+   border-radius: 5px;
+   margin: 50px;
+   padding: 15px;
+    }
+    article{
+        background-color: rgba(216, 175, 68, 0.5);
+        border-radius: 5px;
+        margin: 50px;
+        padding: 15px;
+         }
+         img {
+            display: inline-block;
+            border-radius: 15px;
+            margin-left: 190px;
+        }
+        #sec{
+            
+                display: block;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            
+        }
+        .hobbies-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 50px auto;
+            max-width: 1290px;
+        }
+        
+        .video-hobbies {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .texto-hobbies {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        main{
+            flex: 1; 
+        }
+        footer {
+            background-color: black;    
+            color: white;               
+            text-align: center;         
+            padding: 15px 0;            
+            margin-top: 20px;           
+            width: 100%;          
+        }
+        
+        footer nav a {
+            margin:10px;             
+            color: white;              
+            text-decoration: none;      
+        }
+        .fab{
+            color: white;
+            font-size: 1.6em;
+        }
+        .fab:hover{
+            color: rgb(152, 55, 78);
+        
+        }
+        .texto-grande {
+            font-size: 1.3em;
+        }
+        
+        .texto-negrita {
+            font-weight: bold;
+        }
+        
+        .texto-italic {
+            font-style: italic;
+        }
+        
+        .texto-centro {
+            text-align: center;
+        }
+        
+        .texto-color {
+            color: rgb(74, 39, 105);
+        }
+        .promedios {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        .promedios th, .promedios td {
+            border: 1px solid #444;
+            padding: 10px;
+        }
+        
+        .promedios th {
+            background-color: rgb(69, 35, 100);
+            color: white;
+        }
+        
+        .promedios tr:nth-child(even) {
+            background-color: rgba(216, 175, 68, 0.3);
+        }
+        
